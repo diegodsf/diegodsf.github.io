@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+
+:root{
+    --fonte1: 'Bebas Neue', sans-serif;
+    --fonte2: 'Play', sans-serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #ece8e8;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-align: center;
+    background-color: gray;
+}
+
+header{
+    background-color: black;
+    color: white;
+    font-family: var(--fonte1);
+    font-size: 3vw;
+}
+
+header h1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+main{
+    width: 800px;
+    margin: auto;
+    background-color: white;
+    font-family: var(--fonte2);
+    font-size: 2vw;
+}
+
+.sobre{
+    height: 100vh;
+    padding-top: 100px;
+}
+
+.portfolio{
+    height: 100vh;
+    padding-top: 20px;
+    background-color: lightgray;
+}
+
+.contato{
+    height: 100vh;
+    padding-top: 20px;
+}
