@@ -15,30 +15,23 @@
 }
 
 body{
-    background-color: #ece8e8;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    background-color: #E4E3D3;
     text-align: center;
-    background-color: gray;
+    font-family: var(--fonte2);
+    font-size: 3vw;
 }
 
 header{
-    background-color: black;
+    background-color: #252627;
     color: white;
     font-family: var(--fonte1);
-    font-size: 3vw;
+    font-size: 4vw;
 }
 
 header h1{
     padding-top: 20px;
     padding-bottom: 20px;
-}
-
-main{
-    width: 800px;
-    margin: auto;
-    background-color: white;
-    font-family: var(--fonte2);
-    font-size: 2vw;
 }
 
 .sobre{
@@ -49,7 +42,7 @@ main{
 .portfolio{
     height: 100vh;
     padding-top: 20px;
-    background-color: lightgray;
+    background-color: #598381;
 }
 
 .contato{
