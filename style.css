@@ -35,7 +35,8 @@ header h1{
 }
 
 main{
-position: relative;}
+    position: relative;
+}
 
 .sobre{
     height: 100vh;
@@ -46,6 +47,13 @@ position: relative;}
     height: 100vh;
     padding-top: 20px;
     background-color: #598381;
+}
+
+#paginas{
+    margin: auto;
+    height: 380px;
+    width: 520px;
+    overflow: scroll;
 }
 
 .contato{
