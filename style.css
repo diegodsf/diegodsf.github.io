@@ -49,10 +49,10 @@ main{
     background-color: #598381;
 }
 
-#paginas{
-    margin: auto;
+.paginas{
     height: 380px;
     width: 520px;
+    margin: auto;
     overflow: scroll;
 }
 
