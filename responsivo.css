@@ -7,7 +7,11 @@
 
 @media only screen and (max-width: 768px){
     .topo{
-        background: url(imagens/fundo_mobile.png);
+        background: url(imagens/fundo_mobile.png) center;
+    }
+
+    .container{
+        text-align: center;
     }
 
     .paginas{
